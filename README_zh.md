@@ -17,6 +17,7 @@ v2rayA 主要提供了下述使用方法：
 
 1. 从 APT 软件源或者 AUR 安装
 2. Docker
+
 docker run -d \
   --restart=always \
   --privileged \
@@ -30,6 +31,7 @@ docker run -d \
   -v /etc/resolv.conf:/etc/resolv.conf \
   -v /etc/v2raya:/etc/v2raya \
   mzz2017/v2raya
+
 3. 自建 [scoop bucket](https://github.com/v2rayA/v2raya-scoop) (Windows 用户)
 4. 自建 [homebrew tap](https://github.com/v2rayA/homebrew-v2raya)
 5. 自建 [OpenWrt 仓库](https://github.com/v2rayA/v2raya-openwrt) 和 OpenWrt 官方软件源（从 OpenWrt 22.03 版本开始提供）
